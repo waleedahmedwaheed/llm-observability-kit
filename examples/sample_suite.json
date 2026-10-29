@@ -1,0 +1,7 @@
+﻿{
+  "name": "smoke",
+  "cases": [
+    {"id": "greeting", "input": "Say hello", "expect_contains": "hello"},
+    {"id": "summary", "input": "Summarize RAG", "expect_contains": "retrieval"}
+  ]
+}
